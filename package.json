@@ -1,0 +1,24 @@
+{
+  "name": "periyar-scale-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for Periyar Scale real-time weight monitoring",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "websocket",
+    "iot",
+    "esp32",
+    "weight-scale"
+  ],
+  "author": "Periyar Scale Team",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
